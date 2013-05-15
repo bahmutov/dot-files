@@ -1,10 +1,9 @@
 alias sublm="/c/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
 alias la="ls -a"
 alias dir="ls -a"
-alias md="mkdir"
 
 # make new folder and cd in it right away
 # requires using arguments
-function mdc() {
+function md() {
     mkdir $1 && cd $1;
 }
