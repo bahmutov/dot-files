@@ -30,5 +30,7 @@
   toorigin = push origin --all
   togithub = push github --all
   tobitbucket = push bitbucket --all
+  togh = push github --all
+  tobb = push bitbucket --all
 [core]
   editor = notepad2
