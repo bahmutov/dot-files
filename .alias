@@ -1,4 +1,4 @@
-alias sublm="/c/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+alias sublm="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
 alias la="ls -a"
 alias dir="ls -a"
 
