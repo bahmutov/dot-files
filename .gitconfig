@@ -1,11 +1,11 @@
 [user]
-	email = gleb.bahmutov@gmail.com
-	name = Gleb Bahmutov
+  email = gleb.bahmutov@gmail.com
+  name = Gleb Bahmutov
 [color]
   branch = auto
   diff = auto
   status = auto
-	ui = true
+  ui = true
 [color "branch"]
   current = yellow reverse
   local = yellow
@@ -31,4 +31,4 @@
   togithub = push github --all
   tobitbucket = push bitbucket --all
 [core]
-	editor = notepad2
+  editor = notepad2
