@@ -20,17 +20,33 @@
   changed = green
   untracked = cyan
 [alias]
-  st = status -sb
+  ; nicer logs
   standup = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --since='1 week ago' --author gleb
   lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
   wdiff = diff --word-diff=plain
   ignored = ls-files --others -i --exclude-standard
-  amend = !git log -n 1 --pretty=tformat:%s%n%n%b | git commit -F - --amend
+
+  ; work flow shortcuts
+  cm = checkout master
+  st = status -sb
   done = commit -am
+  amend = !git log -n 1 --pretty=tformat:%s%n%n%b | git commit -F - --amend
+
+  ; pulling shortcuts
+  fromo = pull origin master
+  fromgh = pull github master
+
+  join = merge --no-ff
+
+  ; pushing shortcuts
   toorigin = push origin --all
   togithub = push github --all
   tobitbucket = push bitbucket --all
-  togh = push github --all
-  tobb = push bitbucket --all
+
+  ; really short pushing aliases
+  too = push origin master --tags
+  togh = push github master --tags
+  tobb = push bitbucket master --tags
+
 [core]
   editor = notepad2
