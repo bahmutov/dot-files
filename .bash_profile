@@ -22,4 +22,4 @@ export LANG="en_US"
 # complete -W "NSGlobalDomain" defaults
 
 # needed for Karma launcher
-export CHROME_BIN="/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+# export CHROME_BIN="/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"
