@@ -49,4 +49,4 @@
   tobb = push bitbucket master --tags
 
 [core]
-  editor = notepad2
+  editor = subl
