@@ -8,7 +8,9 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # programs
-alias slt='open -a "Sublime Text 3"'
+
+# link installed sublime to user local bin folder (once) to run it like `subl`
+# sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 # Git shortcuts
 alias g="git"

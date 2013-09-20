@@ -17,6 +17,10 @@ The main difference from OSX: username is under variable *$USERNAME* and not *$U
 
 Adjust settings inside **.gitconfig** and **.bash_prompt**.
 
+## Mac users
+
+These settings should work for you, please use **mac** branch, not master.
+
 ## Questions?
 
 Gleb Bahmutov <gleb.bahmutov@gmail.com>
