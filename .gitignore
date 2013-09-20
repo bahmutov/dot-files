@@ -60,3 +60,9 @@ Library/
 Movies/
 Public/
 bin/
+Icon.cache/
+.cache/
+.cups/
+.irb_history
+.npm/
+voltron/
