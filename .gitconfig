@@ -36,7 +36,7 @@
   fromo = pull origin master
   fromgh = pull github master
 
-  join = merge --no-ff
+  join = merge --no-ff -m "merging with --no-ff"
 
   ; pushing shortcuts
   toorigin = push origin --all
