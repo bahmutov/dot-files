@@ -33,10 +33,10 @@
   amend = !git log -n 1 --pretty=tformat:%s%n%n%b | git commit -F - --amend
 
   ; pulling shortcuts
-  fromo = pull origin master
-  fromgh = pull github master
+  fromo = pull origin master --no-edit
+  fromgh = pull github master --no-edit
 
-  join = merge --no-ff -m "merging with --no-ff"
+  join = merge --no-ff --no-edit
 
   ; pushing shortcuts
   toorigin = push origin --all
