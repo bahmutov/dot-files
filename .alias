@@ -15,6 +15,7 @@ alias -- -="cd -"
 # Git shortcuts
 alias g="git"
 alias undopush="git push -f origin HEAD^:master"
+alias gc="git clone"
 
 # File size
 alias fs="stat -f \"%z bytes\""
