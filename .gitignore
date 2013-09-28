@@ -69,3 +69,7 @@ voltron/
 IconIconIcon.bower/
 git/
 .bower/
+.jenkins/
+.local/
+uTest/
+.bash_profile.macports-saved_2013-09-27_at_07:36:52
