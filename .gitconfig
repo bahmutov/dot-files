@@ -22,7 +22,7 @@
 [alias]
   ; nicer logs
   standup = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --since='1 week ago' --author gleb
-  lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --since='3 days ago'
   wdiff = diff --word-diff=plain
   ignored = ls-files --others -i --exclude-standard
 
