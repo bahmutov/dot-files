@@ -50,3 +50,5 @@
 
 [core]
   editor = notepad2
+[push]
+	default = simple
