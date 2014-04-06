@@ -1,5 +1,25 @@
 # find file with given filename shorthand in the current folder
+# and its subfolders, case-insensitive
 #   "f foo*.js" finds foo.js, foo-something.js, etc
+#   "f f??.js" finds foo.js, f00.js, etc.
+# http://unixhelp.ed.ac.uk/CGI/man-cgi?find
+
+# useful additional arguments -newerct 'time ago', for example
+# f foo*.js -newerct '3 month ago'
+#   finds foo*.js files in the current folder that are newer than 3 months
+
 function f() {
-    find . -name "$1"
+    find . -iname "$1"
 }
+
+# Find given string in the files source
+#   fin "foo something" src
+#   finds string "foo something" in all subfolders in folder "src"
+# excludes common npm folders (.git, node_modules, etc)
+# prints filename and line number
+
+alias fin="grep -in -ri \
+  --exclude-dir=.git \
+  --exclude-dir=node_modules \
+  --exclude-dir=bower_components \
+  --exclude-dir=dist"
