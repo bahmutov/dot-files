@@ -1,6 +1,7 @@
 [user]
-  email = gleb.bahmutov@gmail.com
+  email = gleb@kensho.com
   name = Gleb Bahmutov
+	editor = subl
 [color]
   branch = auto
   diff = auto
@@ -48,5 +49,6 @@
   togh = push github master --tags
   tobb = push bitbucket master --tags
 
+  tc = push origin --tags
 [core]
   editor = subl

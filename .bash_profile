@@ -1,6 +1,8 @@
 source ~/.alias
+source ~/.kensho_alias
 source ~/.bash_prompt
 source ~/.functions
+source ~/.search
 
 # init z   https://github.com/rupa/z
 # . ~/code/z/z.sh
@@ -25,7 +27,7 @@ export LANG="en_US"
 # needed for Karma launcher
 # export CHROME_BIN="/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
-export PATH="/usr/local/bin:~/dev/arcanist/bin/:$PATH"
+export PATH="/usr/local/bin:/Users/gleb/dev/arcanist/bin:$PATH"
 ##
 # Your previous /Users/gbahmutov/.bash_profile file was backed up as /Users/gbahmutov/.bash_profile.macports-saved_2013-09-27_at_07:36:52
 ##
@@ -43,3 +45,5 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM

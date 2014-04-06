@@ -1,0 +1,5 @@
+# find file with given filename shorthand in the current folder
+#   "f foo*.js" finds foo.js, foo-something.js, etc
+function f() {
+    find . -name "$1"
+}
