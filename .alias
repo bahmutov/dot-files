@@ -18,6 +18,10 @@ alias undopush="git push -f origin HEAD^:master"
 alias gc="git clone"
 alias st="git st"
 
+# Gitjk - git undo
+# https://github.com/mapmeld/gitjk
+alias gitjk="history 10 | tail -r | gitjk_cmd"
+
 # global npm install
 alias NPM="sudo npm install -g"
 
