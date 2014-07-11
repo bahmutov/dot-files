@@ -12,6 +12,9 @@ alias -- -="cd -"
 # link installed sublime to user local bin folder (once) to run it like `subl`
 # sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
+# Grunt shortcuts
+alias gk="grunt karma"
+
 # Git shortcuts
 alias g="git"
 alias undopush="git push -f origin HEAD^:master"

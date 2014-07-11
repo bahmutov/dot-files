@@ -50,5 +50,10 @@
   tobb = push bitbucket master --tags
 
   tc = push origin --tags
+	test = "!gi() { curl http://www.gitignore.io/api/$@ ;}; gi"
 [core]
   editor = subl
+[github]
+	user = bahmutov
+[ghi]
+	token = !security find-internet-password -a  -s github.com -l 'ghi token' -w
