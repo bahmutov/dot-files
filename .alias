@@ -25,6 +25,7 @@ alias gp="git pull"
 # phabricator / arcanist shortcuts
 alias ab="arc branch"
 alias al="arc land"
+alias ad="arc diff --background 0"
 
 # Gitjk - git undo
 # https://github.com/mapmeld/gitjk
