@@ -14,6 +14,7 @@ alias -- -="cd -"
 
 # Grunt shortcuts
 alias gk="grunt karma"
+alias gw="grunt watch --no-quiet --no-eslint"
 
 # Git shortcuts
 alias g="git"
@@ -22,10 +23,21 @@ alias gc="git clone"
 alias st="git st"
 alias gp="git pull"
 
+# a couple of extra git aliases take from
+# https://news.ycombinator.com/item?id=8872334
+# better logs
+alias logo="git log --oneline --graph --all --decorate"
+alias logg="git log --graph --all --decorate"
+# log just tagged commits
+alias logt="git log --date-order --graph --tags --simplify-by-decoration --pretty=format:'%ai %h %C(Yellow)%d%Creset'"
+# lists ignored files
+alias ignored="git ls-files --others -i --exclude-standard"
+
 # phabricator / arcanist shortcuts
 alias ab="arc branch"
 alias al="arc land"
-alias ad="arc diff --background 0"
+# Use commit message verbatim and just add reviewers
+alias ad="arc diff --verbatim --reviewers"
 
 # Gitjk - git undo
 # https://github.com/mapmeld/gitjk

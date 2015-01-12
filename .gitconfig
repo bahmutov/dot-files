@@ -1,5 +1,5 @@
 [user]
-  email = gleb@kensho.com
+	email = gleb.bahmutov@gmail.com
   name = Gleb Bahmutov
 	editor = subl
 [color]
@@ -51,9 +51,13 @@
 
   tc = push origin --tags
 	test = "!gi() { curl http://www.gitignore.io/api/$@ ;}; gi"
+	notstaged = log --author=gleb origin/gold..origin/master --oneline
+	notprod = log --author=gleb origin/platinum..origin/gold --oneline
 [core]
-  editor = subl
+	editor = subl -n -w
 [github]
 	user = bahmutov
 [ghi]
 	token = !security find-internet-password -a  -s github.com -l 'ghi token' -w
+[push]
+	default = simple
