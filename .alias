@@ -17,6 +17,7 @@ alias chromef="chrome --allow-file-access-from-files"
 # Grunt shortcuts
 alias gk="grunt karma"
 alias gw="grunt watch --no-quiet --no-eslint"
+alias wg="make gulp -j"
 
 # Git shortcuts
 alias g="git"
