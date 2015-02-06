@@ -38,7 +38,7 @@ alias ignored="git ls-files --others -i --exclude-standard"
 
 # phabricator / arcanist shortcuts
 alias ab="arc branch"
-alias al="arc land"
+alias al="time arc land"
 # Use commit message verbatim and just add reviewers
 alias ad="arc diff --verbatim --reviewers"
 
