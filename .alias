@@ -29,6 +29,7 @@ alias gp="git pull"
 # a couple of extra git aliases take from
 # https://news.ycombinator.com/item?id=8872334
 # better logs
+alias glog="git log --oneline --graph --all --decorate --pretty=format:'%h %cn %cr %C(Yellow)%d%Creset %s'"
 alias logo="git log --oneline --graph --all --decorate"
 alias logg="git log --graph --all --decorate"
 # log just tagged commits
