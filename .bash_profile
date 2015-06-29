@@ -47,3 +47,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
+
+# Add boot2docker path for Docker to find
+$(boot2docker shellinit 2> /dev/null)
