@@ -11,6 +11,7 @@ alias -- -="cd -"
 
 # link installed sublime to user local bin folder (once) to run it like `subl`
 # sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+alias s="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias chromef="chrome --allow-file-access-from-files"
 
