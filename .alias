@@ -116,3 +116,5 @@ function branches() {
   # * master        this is master branch
   # one             this is simple branch for testing
 }
+
+alias es6-docs="manpm bevacqua/es6"
