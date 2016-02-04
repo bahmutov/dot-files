@@ -49,4 +49,9 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
 
 # Add boot2docker path for Docker to find
-$(boot2docker shellinit 2> /dev/null)
+# $(boot2docker shellinit 2> /dev/null)
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
