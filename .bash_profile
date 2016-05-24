@@ -1,5 +1,4 @@
 source ~/.alias
-source ~/.kensho_alias
 source ~/.bash_prompt
 source ~/.functions
 source ~/.search

@@ -75,3 +75,7 @@ uTest/
 .bash_profile.macports-saved_2013-09-27_at_07:36:52
 .policeconf
 .kensho_alias
+.DS_Store
+.bash_sessions/
+.nvm/
+Applications/
