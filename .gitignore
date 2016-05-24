@@ -79,3 +79,5 @@ uTest/
 .bash_sessions/
 .nvm/
 Applications/
+.as-a/
+.s3cfg
