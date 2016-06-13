@@ -81,3 +81,4 @@ uTest/
 Applications/
 .as-a/
 .s3cfg
+.httpie/
