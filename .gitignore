@@ -60,13 +60,23 @@ Library/
 Movies/
 Public/
 bin/
-Icon.cache/
+Icon
+
+.cache/
 .cache/
 .cups/
 .irb_history
 .npm/
 voltron/
-IconIconIcon.bower/
+Icon
+
+Icon
+
+Icon
+
+
+
+.bower/
 git/
 .bower/
 .jenkins/
@@ -75,3 +85,4 @@ uTest/
 .bash_profile.macports-saved_2013-09-27_at_07:36:52
 .policeconf
 kasper-server-env.ini
+.kensho_alias

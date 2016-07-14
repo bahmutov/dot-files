@@ -83,6 +83,10 @@ alias l="ls -l ${colorflag}"
 # List all files colorized in long format, including dot files
 alias la="ls -la ${colorflag}"
 
+# When using pre-git module with git-issues
+# where "commit": "git-issues && commit-wizard"
+alias nc="npm run commit"
+
 # list git branches with their descriptions
 
 function branches() {
@@ -112,4 +116,6 @@ function branches() {
   # * master        this is master branch
   # one             this is simple branch for testing
 }
+
 alias es6-features="manpm lukehoban/es6features"
+alias es6-docs="manpm bevacqua/es6"
