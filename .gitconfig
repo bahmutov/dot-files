@@ -25,7 +25,8 @@
   standup = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cD) %C(bold blue)<%an>%Creset' --since='1 week ago' --author gleb
   lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --since='3 days ago'
   wdiff = diff --word-diff=plain
-  dsf = "!git diff --color $@ | diff-so-fancy"
+  dsf = "!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" '\
+'&& git diff --color "$@" | diff-so-fancy  | less --tabs=4 -RFX; }; f"
   ignored = ls-files --others -i --exclude-standard
 
   ; work flow shortcuts
