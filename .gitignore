@@ -86,3 +86,7 @@ uTest/
 .policeconf
 kasper-server-env.ini
 .kensho_alias
+.DS_Store
+.bash_sessions/
+.nvm/
+Applications/
