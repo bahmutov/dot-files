@@ -90,3 +90,5 @@ kasper-server-env.ini
 .bash_sessions/
 .nvm/
 Applications/
+.openvpn-connect.json
+dev/
