@@ -1,5 +1,8 @@
 source ~/.alias
-source ~/.kensho_alias
+if [ -e ~/.work_alias ]
+then
+  source ~/.work_alias
+fi
 source ~/.bash_prompt
 source ~/.functions
 source ~/.search

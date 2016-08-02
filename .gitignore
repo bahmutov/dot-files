@@ -85,10 +85,12 @@ uTest/
 .bash_profile.macports-saved_2013-09-27_at_07:36:52
 .policeconf
 kasper-server-env.ini
-.kensho_alias
+.work_alias
 .DS_Store
 .bash_sessions/
 .nvm/
 Applications/
 .openvpn-connect.json
 dev/
+.gitlab-runner/
+.as-a.ini
