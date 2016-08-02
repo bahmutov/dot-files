@@ -60,8 +60,6 @@ Library/
 Movies/
 Public/
 bin/
-Icon
-
 .cache/
 .cache/
 .cups/
@@ -69,13 +67,6 @@ Icon
 .npm/
 voltron/
 Icon
-
-Icon
-
-Icon
-
-
-
 .bower/
 git/
 .bower/
