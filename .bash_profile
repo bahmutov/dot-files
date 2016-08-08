@@ -49,3 +49,12 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 # Add boot2docker path for Docker to find
 $(boot2docker shellinit 2> /dev/null)
+
+##
+# Your previous /Users/irinakous/.bash_profile file was backed up as /Users/irinakous/.bash_profile.macports-saved_2016-07-30_at_19:23:43
+##
+
+# MacPorts Installer addition on 2016-07-30_at_19:23:43: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
