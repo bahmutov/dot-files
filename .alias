@@ -63,6 +63,22 @@ function md() {
     mkdir $1 && cd $1;
 }
 
+# compute SHA256 has of a given downloaded file
+function sha256() {
+  curl -s $1 | openssl dgst -sha256 -binary | openssl base64 -A | pbcopy
+  echo Copied SHA256 into your clipboard
+  pbpaste
+  echo
+}
+
+# compute SHA384 has of a given downloaded file
+function sha384() {
+  curl -s $1 | openssl dgst -sha384 -binary | openssl base64 -A | pbcopy
+  echo Copied SHA384 into your clipboard
+  pbpaste
+  echo
+}
+
 # `cat` with beautiful colors. requires Pygments installed.
 # sudo easy_install Pygments
 # alias c='pygmentize -O style=monokai -f console256 -g'
