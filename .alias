@@ -140,3 +140,6 @@ function branches() {
 
 alias es6-features="manpm lukehoban/es6features"
 alias es6-docs="manpm bevacqua/es6"
+
+# Docker aliases
+alias dps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.RunningFor}}"'
