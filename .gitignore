@@ -60,13 +60,14 @@ Library/
 Movies/
 Public/
 bin/
-Icon.cache/
+.cache/
 .cache/
 .cups/
 .irb_history
 .npm/
 voltron/
-IconIconIcon.bower/
+Icon
+.bower/
 git/
 .bower/
 .jenkins/
@@ -74,7 +75,8 @@ git/
 uTest/
 .bash_profile.macports-saved_2013-09-27_at_07:36:52
 .policeconf
-.kensho_alias
+kasper-server-env.ini
+.work_alias
 .DS_Store
 .bash_sessions/
 .nvm/
@@ -82,3 +84,7 @@ Applications/
 .as-a/
 .s3cfg
 .httpie/
+.openvpn-connect.json
+dev/
+.gitlab-runner/
+.as-a.ini

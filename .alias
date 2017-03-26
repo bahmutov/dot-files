@@ -63,6 +63,27 @@ function md() {
     mkdir $1 && cd $1;
 }
 
+# computing SRI hashes
+# https://glebbahmutov.com/blog/subresource-integrity/
+
+# compute SHA256 has of a given downloaded file
+function sha256() {
+  sha=`curl -s $1 | openssl dgst -sha256 -binary | openssl base64 -A`
+  echo -n sha256-$sha | pbcopy
+  echo Copied SHA256 into your clipboard
+  pbpaste
+  echo
+}
+
+# compute SHA384 has of a given downloaded file
+function sha384() {
+  sha=`curl -s $1 | openssl dgst -sha384 -binary | openssl base64 -A`
+  echo -n sha384-$sha | pbcopy
+  echo Copied SHA384 into your clipboard
+  pbpaste
+  echo
+}
+
 # `cat` with beautiful colors. requires Pygments installed.
 # sudo easy_install Pygments
 # alias c='pygmentize -O style=monokai -f console256 -g'
@@ -117,4 +138,11 @@ function branches() {
   # one             this is simple branch for testing
 }
 
+alias es6-features="manpm lukehoban/es6features"
 alias es6-docs="manpm bevacqua/es6"
+
+# Docker aliases
+alias dps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.RunningFor}}"'
+
+# Quick random password
+alias pass='node -e "console.log(crypto.randomBytes(32).toString(\"hex\"))" | pbcopy && echo "Random 32 bytes (hex) in your clipboard"'
