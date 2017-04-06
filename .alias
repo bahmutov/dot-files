@@ -145,4 +145,4 @@ alias es6-docs="manpm bevacqua/es6"
 alias dps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.RunningFor}}"'
 
 # Quick random password
-alias pass='node -e "console.log(crypto.randomBytes(32).toString(\"hex\"))" | pbcopy && echo "Random 32 bytes (hex) in your clipboard"'
+alias pass='node -e "process.stdout.write(crypto.randomBytes(32).toString(\"hex\"))" | pbcopy && echo "Random 32 bytes (hex) in your clipboard"'
