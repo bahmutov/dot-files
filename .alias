@@ -14,6 +14,7 @@ alias -- -="cd -"
 alias s="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias chromef="chrome --allow-file-access-from-files"
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
 
 # Grunt shortcuts
 alias gk="grunt karma"
