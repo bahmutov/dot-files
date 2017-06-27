@@ -144,6 +144,8 @@ alias es6-docs="manpm bevacqua/es6"
 
 # Docker aliases
 alias dps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.RunningFor}}"'
+# Creates Node container with mapped current folder and runs Bash shell
+alias node-box='docker run -v $PWD:/src -w /src -u node -it node /bin/bash'
 
 # Quick random password
 alias pass='node -e "process.stdout.write(crypto.randomBytes(32).toString(\"hex\"))" | pbcopy && echo "Random 32 bytes (hex) in your clipboard"'
