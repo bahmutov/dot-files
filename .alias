@@ -152,7 +152,8 @@ alias chrome-box='docker run -v $PWD:/src -w /src -u person -it cypress/internal
 # Quick random password
 alias pass='node -e "process.stdout.write(crypto.randomBytes(32).toString(\"hex\"))" | pbcopy && echo "Random 32 bytes (hex) in your clipboard"'
 
-# stringified JSON file
+# stringified JSON file in your clipboard
+# better than just cat filename | pbcopy because removes newlines
 function stringify() {
   filename=$1
   node -e "console.log(JSON.stringify(require(\"$filename\")))" | pbcopy
