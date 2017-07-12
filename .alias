@@ -55,6 +55,9 @@ alias NPM="sudo npm install -g"
 # running node with all ES6
 alias harm="node --harmony"
 
+# create new NPM module using Yeoman generator-node-bahmutov
+alias new_module='yo node-bahmutov && yo node-bahmutov:release'
+
 # File size
 alias fs="stat -f \"%z bytes\""
 
