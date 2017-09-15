@@ -150,7 +150,7 @@ alias dps='docker ps --format "table {{.ID}}\t{{.Image}}\t{{.RunningFor}}"'
 # Creates Node container with mapped current folder and runs Bash shell
 alias node-box='docker run -v $PWD:/src -w /src -u node -it node /bin/bash'
 # Creates full XVFB+Chrome container with mapped current folder
-alias chrome-box='docker run -v $PWD:/src -w /src -u person -it cypress/internal:chrome58 /bin/bash'
+alias chrome-box='docker run -v $PWD:/src -w /src -u person -it cypress/internal:chrome61 /bin/bash'
 alias cy-0.19.4-box='docker run -v $PWD:/src -w /src -u person -it cypress/internal:cy-0.19.4 /bin/bash'
 
 # Quick random password
