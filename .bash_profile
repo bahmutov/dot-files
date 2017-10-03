@@ -62,3 +62,6 @@ export PATH
 
 # Postgres CLI tools
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
+
+# have-it tool path
+export HAVE=~/git
