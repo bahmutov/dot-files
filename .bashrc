@@ -4,3 +4,6 @@ export NVM_DIR="/Users/gleb/.nvm"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/irinakous/.travis/travis.sh ] && source /Users/irinakous/.travis/travis.sh
