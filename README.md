@@ -23,7 +23,7 @@ These settings should work for you, please use **mac** branch, not master.
 
 * Go to the profile folder `cd ~`
 * Init new git repo `git init`
-* Add this github repo as remote `git remote add origin https://github.com/bahmutov/dot-files.git`
+* Add this github repo as remote `git remote add origin git@github.com:bahmutov/dot-files.git`
 * Download the remote repo `git pull origin mac`
 * Switch to the `mac` branch `git checkout mac`
 * Restart the terminal - all Bash files should be here.
