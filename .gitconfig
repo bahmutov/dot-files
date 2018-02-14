@@ -1,6 +1,6 @@
 [user]
 	email = gleb.bahmutov@gmail.com
-  name = Gleb Bahmutov
+	name = Gleb Bahmutov
 	editor = subl
 [color]
   branch = auto
@@ -66,6 +66,7 @@
 [core]
 	editor = code --wait
 	pager = diff-so-fancy | less --tabs=4 -RFX
+	quotepath = false
 [github]
 	user = bahmutov
 [ghi]
