@@ -29,6 +29,8 @@ alias st="git st"
 alias gp="git pull"
 alias gd="git checkout develop"
 alias gdd="git checkout develop && git pull"
+# use to add an empty commit with a message like: gempty "test ci again"
+alias gempty="git commit --allow-empty -m"
 
 # a couple of extra git aliases take from
 # https://news.ycombinator.com/item?id=8872334
