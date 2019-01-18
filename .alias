@@ -118,6 +118,11 @@ alias la="ls -la ${colorflag}"
 # where "commit": "git-issues && commit-wizard"
 alias nc="npm run commit"
 
+# launch Cypress open using NPX
+alias co="npx cypress open"
+# Cypress run headlessly
+alias cr="npx cypress run"
+
 # list git branches with their descriptions
 
 function branches() {
