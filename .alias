@@ -46,6 +46,10 @@ alias logt="git log --date-order --graph --tags --simplify-by-decoration --prett
 # lists ignored files
 alias ignored="git ls-files --others -i --exclude-standard"
 
+# Typically I install and use additional git commands from
+# https://github.com/tj/git-extras/blob/master/Commands.md
+# for example there is "git clear-soft" that removes untracked files.
+
 # phabricator / arcanist shortcuts
 alias ab="arc branch"
 alias al="time arc land"
