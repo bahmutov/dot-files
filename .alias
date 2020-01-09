@@ -30,6 +30,7 @@ alias st="git st"
 alias gp="git pull"
 alias gd="git checkout develop"
 alias gdd="git checkout develop && git pull"
+alias gmm="git checkout master && git pull"
 # use to add an empty commit with a message like: gempty "test ci again"
 alias gempty="git commit --allow-empty -m"
 # git push without running pre-push hooks
