@@ -90,3 +90,4 @@ dev/
 .as-a.ini
 # ignore the NPMRC file as it might have private tokens
 .npmrc
+node_modules/

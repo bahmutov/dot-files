@@ -1,0 +1,26 @@
+{
+  "name": "my-dot-files",
+  "version": "1.0.0",
+  "description": "Bash profile and other user settings",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "ban": "ban",
+    "ban:all": "ban --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/dot-files.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/dot-files/issues"
+  },
+  "homepage": "https://github.com/bahmutov/dot-files#readme",
+  "devDependencies": {
+    "ban-sensitive-files": "^1.9.16",
+    "husky": "^7.0.1"
+  }
+}
