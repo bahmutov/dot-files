@@ -88,3 +88,5 @@ Applications/
 dev/
 .gitlab-runner/
 .as-a.ini
+# ignore the NPMRC file as it might have private tokens
+.npmrc
