@@ -1,7 +1,6 @@
 [user]
-	email = gleb.bahmutov@gmail.com
-	name = Gleb Bahmutov
-	editor = subl
+  email = gleb.bahmutov@gmail.com
+  name = Gleb Bahmutov
 [color]
   branch = auto
   diff = auto
