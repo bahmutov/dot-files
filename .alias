@@ -15,7 +15,11 @@ alias s="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
 alias chromef="chrome --allow-file-access-from-files"
-alias code="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
+
+# hmm, how should VSCode be installed?
+# https://code.visualstudio.com/docs/setup/mac
+alias code=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code
+# alias code="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
 
 # Grunt shortcuts
 alias gk="grunt karma"
