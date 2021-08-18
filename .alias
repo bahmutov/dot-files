@@ -18,7 +18,7 @@ alias chromef="chrome --allow-file-access-from-files"
 
 # hmm, how should VSCode be installed?
 # https://code.visualstudio.com/docs/setup/mac
-alias code=/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 # alias code="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
 
 # Grunt shortcuts
