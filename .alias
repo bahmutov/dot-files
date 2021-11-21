@@ -191,3 +191,13 @@ function stringify() {
   node -e "console.log(JSON.stringify(require(\"$filename\")))" | pbcopy
   echo "Copied stringified $filename to your clipboard"
 }
+
+# shrink the given PNG image using https://www.npmjs.com/package/pngquant-bin
+function png() {
+  filename=$1
+  echo "Shrinking image $filename"
+  original_size=`stat -f %z $filename`
+  npx pngquant-bin --force "$filename" -o "$filename"
+  new_size=`stat -f %z $filename`
+  echo "$filename $original_size -> $new_size"
+}
