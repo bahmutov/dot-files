@@ -2,10 +2,15 @@
 export NVM_DIR="/Users/gleb/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # use this Node version when starting
-nvm use 12
+nvm use 14
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Android SDK
+export ANDROID_SDK_ROOT="/Users/glebbahmutov/Library/Android/sdk"
+export ANDROID_HOME="/Users/glebbahmutov/Library/Android/sdk"
+export PATH="/Users/glebbahmutov/Library/Android/sdk:$PATH"
 
 # added by travis gem
 [ -f /Users/irinakous/.travis/travis.sh ] && source /Users/irinakous/.travis/travis.sh
