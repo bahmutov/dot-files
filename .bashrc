@@ -19,3 +19,7 @@ export PATH="/Users/glebbahmutov/Library/Android/sdk:$PATH"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
