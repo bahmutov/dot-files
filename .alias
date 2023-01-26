@@ -40,6 +40,8 @@ alias gma="git checkout main && git pull"
 alias gempty="git commit --allow-empty -m"
 # git push without running pre-push hooks
 alias gpno="git push --no-verify"
+# git make a new branch quickly
+alias gb="git checkout -b"
 
 # a couple of extra git aliases take from
 # https://news.ycombinator.com/item?id=8872334
