@@ -83,7 +83,7 @@ alias fs="stat -f \"%z bytes\""
 # make new folder and cd in it right away
 # requires using arguments
 function md() {
-    mkdir $1 && cd $1;
+  mkdir $1 && cd $1;
 }
 
 # computing SRI hashes
@@ -202,4 +202,15 @@ function png() {
   npx pngquant-bin --force "$filename" -o "$filename"
   new_size=`stat -f %z $filename`
   echo "$filename $original_size -> $new_size"
+}
+
+# copies the image file into the current folder
+# shrinks it using PNG command
+# and adds the shrunk file to Git repo
+function gimage() {
+  filename=$1
+  cp $filename .
+  name=$(basename -- "$filename")
+  png $name
+  git add $name
 }
