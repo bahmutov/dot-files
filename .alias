@@ -214,3 +214,14 @@ function gimage() {
   png $name
   git add $name
 }
+
+# Function: gready
+# Description: This function is used to quickly stage, commit,
+# and push changes to a Git repository.
+# Parameters:
+#   - message: The commit message to be used when committing the changes.
+# Usage: gready "Commit message"
+function gready() {
+  message=$1
+  git add -A && git commit -m "$message" && git push
+}
