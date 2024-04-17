@@ -42,6 +42,8 @@ alias gempty="git commit --allow-empty -m"
 alias gpno="git push --no-verify"
 # git make a new branch quickly
 alias gb="git checkout -b"
+# go back to the previous Git branch
+alias g-="git checkout -"
 
 # a couple of extra git aliases take from
 # https://news.ycombinator.com/item?id=8872334
