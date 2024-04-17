@@ -1,0 +1,342 @@
+11:08:54.021: [macOS] Permission for audio device access granted.
+11:08:54.028: [macOS] Permission for video device access granted.
+11:08:54.035: [macOS] Permission for accessibility granted.
+11:08:54.041: [macOS] Permission for screen capture granted.
+11:08:54.041: CPU Name: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+11:08:54.041: CPU Speed: 2600MHz
+11:08:54.041: Physical Cores: 6, Logical Cores: 12
+11:08:54.041: Physical Memory: 32768MB Total
+11:08:54.041: Model Identifier: MacBookPro16,1
+11:08:54.041: OS Name: macOS
+11:08:54.041: OS Version: Version 14.4 (Build 23E214)
+11:08:54.041: Rosetta translation used: false
+11:08:54.041: Kernel Version: 23.4.0
+11:08:54.043: hotkeys-cocoa: Using layout 'com.apple.keylayout.US'
+11:08:54.043: Current Date/Time: 2024-03-26, 11:08:54
+11:08:54.043: Browser Hardware Acceleration: false
+11:08:54.043: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+11:08:54.043: Portable mode: false
+11:08:54.748: OBS 30.1.0 (mac)
+11:08:54.748: ---------------------------------
+11:08:54.750: ---------------------------------
+11:08:54.750: audio settings reset:
+11:08:54.750: 	samples per sec: 48000
+11:08:54.750: 	speakers:        2
+11:08:54.750: 	max buffering:   960 milliseconds
+11:08:54.750: 	buffering type:  dynamically increasing
+11:08:54.810: ---------------------------------
+11:08:54.810: Initializing OpenGL...
+11:08:55.712: Loading up OpenGL on adapter ATI Technologies Inc. AMD Radeon Pro 5300M OpenGL Engine
+11:08:55.712: OpenGL loaded successfully, version 4.1 ATI-5.5.17, shading language 4.10
+11:08:56.131: ---------------------------------
+11:08:56.131: video settings reset:
+11:08:56.131: 	base resolution:   3584x2240
+11:08:56.131: 	output resolution: 3584x2240
+11:08:56.131: 	downscale filter:  Bicubic
+11:08:56.131: 	fps:               30/1
+11:08:56.131: 	format:            NV12
+11:08:56.131: 	YUV mode:          Rec. 709/Partial
+11:08:56.132: NV12 texture support not available
+11:08:56.132: P010 texture support not available
+11:08:56.132: Audio monitoring device:
+11:08:56.132: 	name: Default
+11:08:56.132: 	id: default
+11:08:56.132: ---------------------------------
+11:08:56.260: No AJA devices found, skipping loading AJA UI plugin
+11:08:56.260: Failed to initialize module 'aja-output-ui'
+11:08:56.389: No AJA devices found, skipping loading AJA plugin
+11:08:56.389: Failed to initialize module 'aja'
+11:08:56.433: Failed to load 'en-US' text for module: 'decklink-captions'
+11:08:56.474: Failed to load 'en-US' text for module: 'decklink-output-ui'
+11:08:56.501: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:08:56.501: Failed to initialize module 'decklink'
+11:09:00.916: [obs-browser]: Version 2.23.4
+11:09:00.916: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.61.26+g3630089+chromium-103.0.5060.134 (compiled)
+11:09:01.595: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.4.2 | RPC Version: 1)
+11:09:01.595: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.2 | Qt version (run-time): 6.6.2
+11:09:01.595: [obs-websocket] [obs_module_load] Linked ASIO Version: 102900
+11:09:01.601: [obs-websocket] [obs_module_load] Module loaded.
+11:09:01.903: [vlc-video]: VLC 3.0.17.3 Vetinari found, VLC video source enabled
+11:09:01.904: ---------------------------------
+11:09:01.904:   Loaded Modules:
+11:09:01.904:     vlc-video
+11:09:01.904:     text-freetype2
+11:09:01.904:     rtmp-services
+11:09:01.904:     obs-x264
+11:09:01.904:     obs-websocket
+11:09:01.904:     obs-webrtc
+11:09:01.904:     obs-vst
+11:09:01.904:     obs-transitions
+11:09:01.904:     obs-outputs
+11:09:01.904:     obs-filters
+11:09:01.904:     obs-ffmpeg
+11:09:01.904:     obs-browser
+11:09:01.904:     mac-virtualcam
+11:09:01.904:     mac-videotoolbox
+11:09:01.904:     mac-syphon
+11:09:01.904:     mac-capture
+11:09:01.904:     mac-avcapture
+11:09:01.904:     mac-avcapture-legacy
+11:09:01.904:     image-source
+11:09:01.904:     frontend-tools
+11:09:01.904:     decklink-output-ui
+11:09:01.904:     decklink-captions
+11:09:01.904:     coreaudio-encoder
+11:09:01.904: ---------------------------------
+11:09:01.904: [VideoToolbox encoder]: Added VideoToolbox encoders
+11:09:01.905: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+11:09:01.905: ==== Startup complete ===============================================
+11:09:01.966: All scene data cleared
+11:09:01.966: ------------------------------------------------
+11:09:02.100: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:02.100: coreaudio: failed to find device uid: 4c-87-5d-a7-49-56:input, waiting for connection
+11:09:02.142: Camera: Could not initialize device with unique ID '0x14134000046d0892'
+11:09:02.146: Video Capture Device: Could not initialize device with unique ID '0x14134000046d0892'
+11:09:02.171: Downmix enabled: 2 to 2 channels.
+11:09:02.236: coreaudio: Device 'RODE NT-USB' [48000 Hz] initialized
+11:09:02.237: Failed to create source 'Display Capture'!
+11:09:02.238: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:02.238: coreaudio: failed to find device uid: AppleUSBAudioEngine:USB-MIC:USB-MIC:20200508V100:1, waiting for connection
+11:09:02.238: Zoom Video Camera: Selected device 'FaceTime HD Camera (Built-in)'
+11:09:02.240: Zoom Video Camera: Using preset 1280x720
+11:09:02.281: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic 2)
+11:09:02.281: 
+11:09:02.313: MMhmm virtual camera: Selected device 'mmhmm Studio Camera'
+11:09:02.313: MMhmm virtual camera: Using preset 1920x1080
+11:09:03.553: [Media Source 'Confetti Video']: settings:
+11:09:03.553: 	input:                   /Users/glebbahmutov/Documents/OBSbackgrounds/confetti-61014.mp4
+11:09:03.553: 	input_format:            (null)
+11:09:03.553: 	speed:                   100
+11:09:03.553: 	is_looping:              yes
+11:09:03.553: 	is_linear_alpha:         no
+11:09:03.553: 	is_hw_decoding:          no
+11:09:03.553: 	is_clear_on_media_end:   yes
+11:09:03.553: 	restart_on_activate:     yes
+11:09:03.553: 	close_when_inactive:     no
+11:09:03.553: 	full_decode:             no
+11:09:03.553: 	ffmpeg_options:          
+11:09:03.553: [Media Source 'Dark lines']: settings:
+11:09:03.553: 	input:                   /Users/glebbahmutov/Documents/OBSbackgrounds/neon-background-107962.mp4
+11:09:03.553: 	input_format:            (null)
+11:09:03.553: 	speed:                   100
+11:09:03.553: 	is_looping:              yes
+11:09:03.553: 	is_linear_alpha:         no
+11:09:03.553: 	is_hw_decoding:          no
+11:09:03.553: 	is_clear_on_media_end:   yes
+11:09:03.553: 	restart_on_activate:     yes
+11:09:03.553: 	close_when_inactive:     no
+11:09:03.553: 	full_decode:             no
+11:09:03.553: 	ffmpeg_options:          
+11:09:03.555: Switched to scene 'Screen plus head (coding)'
+11:09:03.555: ------------------------------------------------
+11:09:03.555: Loaded scenes:
+11:09:03.555: - scene 'Camera Scene':
+11:09:03.555:     - source: 'Video Capture Device' (av_capture_input)
+11:09:03.555:         - filter: 'Image Mask/Blend' (mask_filter_v2)
+11:09:03.555:         - filter: 'Colour Correction' (color_filter_v2)
+11:09:03.555:         - filter: 'Colour Key left' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key right' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key extra' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key 4' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key 5' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key 6' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key 7' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key 8' (color_key_filter_v2)
+11:09:03.555:         - filter: 'Colour Key' (color_key_filter_v2)
+11:09:03.555:     - source: 'Zoom Video Camera' (av_capture_input)
+11:09:03.555:     - source: 'MMhmm virtual camera' (av_capture_input)
+11:09:03.555:         - filter: 'Crop/Pad' (crop_filter)
+11:09:03.555:         - filter: 'Green screen' (chroma_key_filter_v2)
+11:09:03.555:     - source: 'Cypress.tips' (text_ft2_source_v2)
+11:09:03.555:     - source: 'cypress.tips logo' (image_source)
+11:09:03.555: - scene 'Screen plus head (coding)':
+11:09:03.555:     - source: 'Title' (text_ft2_source_v2)
+11:09:03.555:     - source: 'Mic' (coreaudio_input_capture)
+11:09:03.555:     - source: 'Camera' (av_capture_input)
+11:09:03.555:         - filter: 'Greenscreen' (chroma_key_filter_v2)
+11:09:03.555:     - source: 'wallpaper' (image_source)
+11:09:03.555:     - source: 'Display Capture' (display_capture)
+11:09:03.555:     - source: 'macOS Screen Capture' (screen_capture)
+11:09:03.555:     - source: 'Mic 2' (coreaudio_input_capture)
+11:09:03.555:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+11:09:03.555:         - filter: 'Noise Gate' (noise_gate_filter)
+11:09:03.555:         - filter: 'Compressor' (compressor_filter)
+11:09:03.555:         - filter: 'Gain' (gain_filter)
+11:09:03.555:     - source: 'Audio Input Capture' (coreaudio_input_capture)
+11:09:03.555:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+11:09:03.555:     - source: 'Camera Scene' (scene)
+11:09:03.555: - scene 'Full head':
+11:09:03.555:     - source: 'blue confetti' (image_source)
+11:09:03.555:     - source: 'Green flowers' (image_source)
+11:09:03.555:     - source: 'color bricks' (image_source)
+11:09:03.555:     - source: 'Confetti Video' (ffmpeg_source)
+11:09:03.555:     - source: 'Dark lines' (ffmpeg_source)
+11:09:03.555:     - source: 'Mic 2' (coreaudio_input_capture)
+11:09:03.555:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+11:09:03.555:         - filter: 'Noise Gate' (noise_gate_filter)
+11:09:03.555:         - filter: 'Compressor' (compressor_filter)
+11:09:03.555:         - filter: 'Gain' (gain_filter)
+11:09:03.555:     - source: 'MMhmm virtual camera' (av_capture_input)
+11:09:03.555:         - filter: 'Crop/Pad' (crop_filter)
+11:09:03.555:         - filter: 'Green screen' (chroma_key_filter_v2)
+11:09:03.555: ------------------------------------------------
+11:09:03.578: Failed to open file '/Users/glebbahmutov/Downloads/imageedit_2_2700077270.png': No such file or directory
+11:09:03.578: gs_image_file_init_internal: Failed to load file '/Users/glebbahmutov/Downloads/imageedit_2_2700077270.png'
+11:09:03.691: adding 42 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: macOS Screen Capture)
+11:09:03.691: 
+11:09:04.034: [mac-virtualcam] macOS Camera Extension activated successfully.
+11:09:04.105: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:04.242: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:06.109: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:06.245: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:08.113: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:08.250: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:10.118: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:10.254: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:10.726: ---------------------------------
+11:09:10.726: [x264 encoder: 'simple_video_recording'] preset: ultrafast
+11:09:10.726: [x264 encoder: 'simple_video_recording'] profile: high
+11:09:10.726: [x264 encoder: 'simple_video_recording'] settings:
+11:09:10.726: 	rate_control: CRF
+11:09:10.726: 	bitrate:      0
+11:09:10.726: 	buffer size:  0
+11:09:10.726: 	crf:          14
+11:09:10.726: 	fps_num:      30
+11:09:10.726: 	fps_den:      1
+11:09:10.726: 	width:        3584
+11:09:10.726: 	height:       2240
+11:09:10.726: 	keyint:       250
+11:09:10.726: 
+11:09:10.736: [CoreAudio AAC: 'simple_aac_recording0']: settings:
+11:09:10.736: 	mode:          AAC
+11:09:10.736: 	bitrate:       192
+11:09:10.736: 	sample rate:   48000
+11:09:10.736: 	cbr:           on
+11:09:10.736: 	output buffer: 1536
+11:09:10.745: ==== Recording Start ===============================================
+11:09:10.745: [ffmpeg muxer: 'simple_file_output'] Writing file '/Users/glebbahmutov/Movies/2024-03-26_11-09-10.mp4'...
+11:09:12.122: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:12.259: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:14.124: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:14.263: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:16.128: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:16.265: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:18.131: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:18.268: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:20.135: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:20.271: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:22.140: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:22.275: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:24.140: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:24.279: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:26.143: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:26.279: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:28.146: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:28.283: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:30.151: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:30.288: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:32.153: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:32.293: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:34.153: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:34.297: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:36.157: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:36.302: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:38.161: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:38.306: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:40.166: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:40.309: [coreaudio_get_device_name] failed to get name: 560947818
+11:09:42.169: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:39.427: Last log entry repeated for 537 more lines
+11:18:39.428: [ffmpeg muxer: 'simple_file_output'] Output of file '/Users/glebbahmutov/Movies/2024-03-26_11-09-10.mp4' stopped
+11:18:39.428: Output 'simple_file_output': stopping
+11:18:39.428: Output 'simple_file_output': Total frames output: 17039
+11:18:39.428: Output 'simple_file_output': Total drawn frames: 17060
+11:18:39.428: ==== Recording Stop ================================================
+11:18:41.109: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:41.249: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:43.112: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:43.253: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:43.986: ==== Shutting down ==================================================
+11:18:44.220: All scene data cleared
+11:18:44.220: ------------------------------------------------
+11:18:44.328: [obs-websocket] [obs_module_unload] Shutting down...
+11:18:44.328: Tried to call obs_frontend_remove_event_callback with no callbacks!
+11:18:44.328: [obs-websocket] [obs_module_unload] Finished shutting down.
+11:18:44.328: [Scripting] Total detached callbacks: 0
+11:18:44.328: Freeing OBS context data
+11:18:44.358: == Profiler Results =============================
+11:18:44.358: run_program_init: 10093.4 ms
+11:18:44.358:  ┣OBSApp::AppInit: 17.832 ms
+11:18:44.358:  ┃ ┗OBSApp::InitLocale: 4.164 ms
+11:18:44.358:  ┗OBSApp::OBSInit: 9731.6 ms
+11:18:44.358:    ┣obs_startup: 2.028 ms
+11:18:44.358:    ┗OBSBasic::OBSInit: 9023.17 ms
+11:18:44.358:      ┣OBSBasic::InitBasicConfig: 0.358 ms
+11:18:44.358:      ┣OBSBasic::ResetAudio: 0.319 ms
+11:18:44.358:      ┣OBSBasic::ResetVideo: 1382 ms
+11:18:44.358:      ┃ ┗obs_init_graphics: 1381.04 ms
+11:18:44.358:      ┃   ┗shader compilation: 419.498 ms
+11:18:44.358:      ┣OBSBasic::InitOBSCallbacks: 0.016 ms
+11:18:44.358:      ┣OBSBasic::InitHotkeys: 0.056 ms
+11:18:44.358:      ┣obs_load_all_modules2: 5771.6 ms
+11:18:44.358:      ┃ ┣obs_init_module(aja-output-ui): 0.329 ms
+11:18:44.358:      ┃ ┣obs_init_module(aja): 0.317 ms
+11:18:44.358:      ┃ ┣obs_init_module(coreaudio-encoder): 0.027 ms
+11:18:44.358:      ┃ ┣obs_init_module(decklink-captions): 0 ms
+11:18:44.358:      ┃ ┣obs_init_module(decklink-output-ui): 0.012 ms
+11:18:44.358:      ┃ ┣obs_init_module(decklink): 0.117 ms
+11:18:44.358:      ┃ ┣obs_init_module(frontend-tools): 5.004 ms
+11:18:44.358:      ┃ ┣obs_init_module(image-source): 0.012 ms
+11:18:44.358:      ┃ ┣obs_init_module(mac-avcapture-legacy): 38.978 ms
+11:18:44.358:      ┃ ┣obs_init_module(mac-avcapture): 0.002 ms
+11:18:44.358:      ┃ ┣obs_init_module(mac-capture): 0.04 ms
+11:18:44.358:      ┃ ┣obs_init_module(mac-syphon): 0.002 ms
+11:18:44.358:      ┃ ┣obs_init_module(mac-videotoolbox): 0.019 ms
+11:18:44.358:      ┃ ┣obs_init_module(mac-virtualcam): 0.02 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-browser): 3909.75 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-ffmpeg): 0.49 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-filters): 0.047 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-outputs): 0.018 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-transitions): 0.008 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-vst): 0.003 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-webrtc): 0.023 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-websocket): 6.104 ms
+11:18:44.358:      ┃ ┣obs_init_module(obs-x264): 0.001 ms
+11:18:44.358:      ┃ ┣obs_init_module(rtmp-services): 1.824 ms
+11:18:44.358:      ┃ ┣obs_init_module(text-freetype2): 0.032 ms
+11:18:44.358:      ┃ ┗obs_init_module(vlc-video): 112.925 ms
+11:18:44.358:      ┣OBSBasic::InitService: 2.294 ms
+11:18:44.358:      ┣OBSBasic::ResetOutputs: 27.811 ms
+11:18:44.358:      ┣OBSBasic::CreateHotkeys: 0.092 ms
+11:18:44.358:      ┣OBSBasic::InitPrimitives: 0.178 ms
+11:18:44.358:      ┗OBSBasic::Load: 1649.11 ms
+11:18:44.358: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.069 ms, 99th percentile=0.001 ms, 100% below 25 ms
+11:18:44.358: audio_thread(Audio): min=0.006 ms, median=0.49 ms, max=84.754 ms, 99th percentile=2.849 ms
+11:18:44.358:  ┗receive_audio: min=0.002 ms, median=0.406 ms, max=17.258 ms, 99th percentile=1.132 ms
+11:18:44.358:    ┣buffer_audio: min=0.001 ms, median=0.001 ms, max=0.147 ms, 99th percentile=0.003 ms
+11:18:44.358:    ┗do_encode: min=0.224 ms, median=0.403 ms, max=17.254 ms, 99th percentile=1.128 ms
+11:18:44.358:      ┣encode(simple_aac_recording0): min=0.218 ms, median=0.37 ms, max=7.208 ms, 99th percentile=0.732 ms
+11:18:44.358:      ┗send_packet: min=0.002 ms, median=0.006 ms, max=16.789 ms, 99th percentile=0.529 ms
+11:18:44.358: obs_graphics_thread(33.3333 ms): min=0.058 ms, median=2.226 ms, max=1692.05 ms, 99th percentile=3.961 ms, 99.983% below 33.333 ms
+11:18:44.359:  ┣tick_sources: min=0 ms, median=0.027 ms, max=1596.77 ms, 99th percentile=0.189 ms
+11:18:44.359:  ┣output_frame: min=0.05 ms, median=2.157 ms, max=95.265 ms, 99th percentile=3.745 ms
+11:18:44.359:  ┃ ┣gs_context(video->graphics): min=0.05 ms, median=0.807 ms, max=95.257 ms, 99th percentile=1.534 ms
+11:18:44.359:  ┃ ┃ ┣render_video: min=0.017 ms, median=0.801 ms, max=93.461 ms, 99th percentile=1.517 ms
+11:18:44.359:  ┃ ┃ ┃ ┣render_main_texture: min=0.015 ms, median=0.659 ms, max=93.458 ms, 99th percentile=1.31 ms
+11:18:44.359:  ┃ ┃ ┃ ┣render_convert_texture: min=0.019 ms, median=0.026 ms, max=10.772 ms, 99th percentile=0.051 ms
+11:18:44.359:  ┃ ┃ ┃ ┗stage_output_texture: min=0.072 ms, median=0.115 ms, max=31.793 ms, 99th percentile=0.218 ms
+11:18:44.359:  ┃ ┃ ┣gs_flush: min=0 ms, median=0 ms, max=1.788 ms, 99th percentile=0.078 ms
+11:18:44.359:  ┃ ┃ ┗download_frame: min=0 ms, median=0.002 ms, max=6.196 ms, 99th percentile=0.004 ms
+11:18:44.359:  ┃ ┗output_video_data: min=1.064 ms, median=1.377 ms, max=10.439 ms, 99th percentile=2.572 ms
+11:18:44.359:  ┗render_displays: min=0 ms, median=0.005 ms, max=24.091 ms, 99th percentile=0.357 ms
+11:18:44.359: video_thread(video): min=1.992 ms, median=2.679 ms, max=31.129 ms, 99th percentile=5.841 ms
+11:18:44.359:  ┗receive_video: min=1.991 ms, median=2.678 ms, max=31.127 ms, 99th percentile=5.839 ms
+11:18:44.359:    ┗do_encode: min=1.99 ms, median=2.677 ms, max=31.126 ms, 99th percentile=5.838 ms
+11:18:44.359:      ┣encode(simple_video_recording): min=1.952 ms, median=2.619 ms, max=30.935 ms, 99th percentile=5.264 ms
+11:18:44.359:      ┗send_packet: min=0.004 ms, median=0.02 ms, max=17.441 ms, 99th percentile=0.752 ms
+11:18:44.359: =================================================
+11:18:44.359: == Profiler Time Between Calls ==================
+11:18:44.359: obs_hotkey_thread(25 ms): min=25.013 ms, median=28.467 ms, max=60.352 ms, 12.0254% within ±2% of 25 ms (0% lower, 87.9746% higher)
+11:18:44.359: obs_graphics_thread(33.3333 ms): min=17.442 ms, median=33.359 ms, max=1692.06 ms, 92.1114% within ±2% of 33.333 ms (3.83632% lower, 4.05229% higher)
+11:18:44.359: =================================================
+11:18:44.411: Number of memory leaks: 0
