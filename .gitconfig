@@ -1,6 +1,7 @@
 [user]
   email = gleb.bahmutov@gmail.com
   name = Gleb Bahmutov
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOSR3fIqcAIW9pawCJxhkJIAm9dKgZe6fAwg+ufDEXRQ
 [color]
   branch = auto
   diff = auto
@@ -88,3 +89,7 @@
 	defaultBranch = main
 [commit]
 	gpgsign = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

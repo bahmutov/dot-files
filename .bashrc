@@ -20,6 +20,8 @@ export PATH="/Users/glebbahmutov/Library/Android/sdk:$PATH"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
+# Homebrew Mac silicon
+export PATH="/opt/homebrew/bin:$PATH"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
