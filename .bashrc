@@ -2,7 +2,7 @@
 export NVM_DIR="/Users/bahmutov/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # use this Node version when starting
-nvm use 14
+nvm use 20
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -24,4 +24,4 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+# source <(ng completion script)
