@@ -30,7 +30,7 @@ export LANG="en_US"
 # needed for Karma launcher
 # export CHROME_BIN="/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
-export PATH="/usr/local/bin:/Users/gleb/dev/arcanist/bin:$PATH"
+export PATH="/usr/local/bin:/Users/bahmutov/dev/arcanist/bin:$PATH"
 ##
 # Your previous /Users/gbahmutov/.bash_profile file was backed up as /Users/gbahmutov/.bash_profile.macports-saved_2013-09-27_at_07:36:52
 ##
@@ -41,7 +41,7 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 
 ##
-# Your previous /Users/gleb/.bash_profile file was backed up as /Users/gleb/.bash_profile.macports-saved_2014-01-20_at_16:13:40
+# Your previous /Users/bahmutov/.bash_profile file was backed up as /Users/bahmutov/.bash_profile.macports-saved_2014-01-20_at_16:13:40
 ##
 
 # MacPorts Installer addition on 2014-01-20_at_16:13:40: adding an appropriate PATH variable for use with MacPorts.
@@ -70,7 +70,7 @@ export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 export HAVE=~/git
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/glebbahmutov/git/google-cloud-sdk/path.bash.inc' ]; then . '/Users/glebbahmutov/git/google-cloud-sdk/path.bash.inc'; fi
+if [ -f '/Users/bahmutov/git/google-cloud-sdk/path.bash.inc' ]; then . '/Users/bahmutov/git/google-cloud-sdk/path.bash.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/glebbahmutov/git/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/glebbahmutov/git/google-cloud-sdk/completion.bash.inc'; fi
+if [ -f '/Users/bahmutov/git/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/bahmutov/git/google-cloud-sdk/completion.bash.inc'; fi

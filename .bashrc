@@ -1,5 +1,5 @@
 [ -n "$PS1" ] && source ~/.bash_profile
-export NVM_DIR="/Users/gleb/.nvm"
+export NVM_DIR="/Users/bahmutov/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # use this Node version when starting
 nvm use 14
@@ -8,9 +8,9 @@ nvm use 14
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Android SDK
-export ANDROID_SDK_ROOT="/Users/glebbahmutov/Library/Android/sdk"
-export ANDROID_HOME="/Users/glebbahmutov/Library/Android/sdk"
-export PATH="/Users/glebbahmutov/Library/Android/sdk:$PATH"
+export ANDROID_SDK_ROOT="/Users/bahmutov/Library/Android/sdk"
+export ANDROID_HOME="/Users/bahmutov/Library/Android/sdk"
+export PATH="/Users/bahmutov/Library/Android/sdk:$PATH"
 
 # added by travis gem
 [ -f /Users/irinakous/.travis/travis.sh ] && source /Users/irinakous/.travis/travis.sh
