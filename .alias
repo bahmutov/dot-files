@@ -40,6 +40,8 @@ alias gma="git checkout main && git pull"
 alias gempty="git commit --allow-empty -m"
 # git push without running pre-push hooks
 alias gpno="git push --no-verify"
+# check out an existing branch
+alias go="git checkout"
 # git make a new branch quickly
 alias gb="git checkout -b"
 # go back to the previous Git branch
