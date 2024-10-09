@@ -46,6 +46,8 @@ alias go="git checkout"
 alias gb="git checkout -b"
 # go back to the previous Git branch
 alias g-="git checkout -"
+# undo the Git changes and remove all untracked files
+alias gnuke="git reset --hard && git clean -df"
 
 # a couple of extra git aliases take from
 # https://news.ycombinator.com/item?id=8872334
