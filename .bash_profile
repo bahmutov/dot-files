@@ -68,9 +68,19 @@ export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 
 # have-it tool path
 export HAVE=~/git
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+# https://reactnative.dev/docs/set-up-your-environment?platform=android
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+# https://reactnative.dev/docs/set-up-your-environment?platform=android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/bahmutov/git/google-cloud-sdk/path.bash.inc' ]; then . '/Users/bahmutov/git/google-cloud-sdk/path.bash.inc'; fi
+if [ -f '/Users/bahmutov/google-cloud-sdk/path.bash.inc' ]; then . '/Users/bahmutov/google-cloud-sdk/path.bash.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/bahmutov/git/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/bahmutov/git/google-cloud-sdk/completion.bash.inc'; fi
+if [ -f '/Users/bahmutov/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/bahmutov/google-cloud-sdk/completion.bash.inc'; fi

@@ -48,6 +48,7 @@ alias gb="git checkout -b"
 alias g-="git checkout -"
 # undo the Git changes and remove all untracked files
 alias gnuke="git reset --hard && git clean -df"
+alias gogo="git reset --hard && git clean -df && git checkout"
 
 # a couple of extra git aliases take from
 # https://news.ycombinator.com/item?id=8872334

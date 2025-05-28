@@ -25,3 +25,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # Load Angular CLI autocompletion.
 # source <(ng completion script)
+
+# Ruby
+export PATH="/Users/bahmutov/.gem/ruby/3.3.0/bin:$PATH"
